@@ -54,5 +54,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys"
 
+# Build type
+CUSTOM_BUILD_TYPE:= OFFICIAL
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.fusion.maintainer=Fahim Ahmad
+
 # Apex
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
