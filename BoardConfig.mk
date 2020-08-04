@@ -104,6 +104,9 @@ BOARD_USES_RECOVERY_AS_BOOT := false
 TARGET_NO_RECOVERY := false
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6771
 
+#Fix Broken Overlay
+BUILD_BROKEN_DUP_RULES := true
+
 # Vendor
 TARGET_COPY_OUT_VENDOR := vendor
 
