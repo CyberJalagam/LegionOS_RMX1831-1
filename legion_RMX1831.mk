@@ -59,6 +59,3 @@ CUSTOM_BUILD_TYPE:= UNOFFICIAL
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.fusion.maintainer=Lokesh Vazirani
-
-# Apex
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
